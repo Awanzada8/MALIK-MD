@@ -8,17 +8,17 @@ global.mongodb = process.env.MONGODB_URI || "mongodb+srv://malikmd:malikmd@clust
 global.port= process.env.PORT || 5000
 global.email = 'akk728492@gmail.com'
 global.github = 'https://github.com/arkhan998/MALIK-MD'
-global.location = 'Pakistan'
-global.gurl = 'king-md.db' // add your username
-global.sudo = process.env.SUDO || '923124533358'
-global.devs = '923124533358';
-global.website = 'https://github.com/arkhan998/MALIK-MD' //wa.me/+91000000000000
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/dce77f7538019d05afe65.jpg'
+global.location = 'UAE'
+global.gurl = 'ᴠͥɪͣᴘͫ𝓑𝓲𝓵𝓪𝓵 𝓐𝔀𝓪𝓷𝔃𝓪𝓭𝓪' // add your username
+global.sudo = process.env.SUDO || '971558510406'
+global.devs = '971558510406';
+global.website = 'https://github.com/Awanzada8/MALIK-MD' //wa.me/+91000000000000
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/003f81e23f20cc7c7b855.jpg'
 module.exports = {
   
   sessionName:  process.env.SESSION_ID ||  "session",
-  botname:   process.env.BOT_NAME === undefined ? 'MALIK-BOT' : process.env.BOT_NAME,
-  ownername: process.env.OWNER_NAME === undefined ? 'arkhan' : process.env.OWNER_NAME,
+  botname:   process.env.BOT_NAME === undefined ? 'ᴠͥɪͣᴘͫ𝓑𝓲𝓵𝓪𝓵 𝓐𝔀𝓪𝓷𝔃𝓪𝓭𝓪' : process.env.BOT_NAME,
+  ownername: process.env.OWNER_NAME === undefined ? 'Bilal Awanzada' : process.env.OWNER_NAME,
   author:  process.env.PACK_INFO === undefined ? 'bot' : process.env.PACK_INFO.split(";")[0],
   auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? false : process.env.AUTO_READ_STATUS,
   packname:  process.env.PACK_INFO === undefined ? 'malik-Md' : process.env.PACK_INFO.split(";")[1],
@@ -27,7 +27,7 @@ module.exports = {
   alwaysonline:  process.env.ALWAYS_ONLINE === undefined ? false : process.env.ALWAYS_ONLINE,
   typingprensence:  process.env.TYPING === undefined ? false : process.env.TYPING,
 recordingpresence:  process.env.RECORDING === undefined ? false : process.env.RECORDING,	
-  antifake : process.env.FAKE_COUNTRY_CODE === undefined ? '971' : process.env.FAKE_COUNTRY_CODE,
+  antifake : process.env.FAKE_COUNTRY_CODE === undefined ? '91' : process.env.FAKE_COUNTRY_CODE,
   readmessage:  process.env.READ_MESSAGE === undefined ? false : process.env.READ_MESSAGE,
   auto_status_saver: process.env.AUTO_STATUS_SAVER === undefined ? false : process.env.AUTO_STATUS_SAVER,
   HANDLERS:  process.env.PREFIX === undefined ? '.' : process.env.PREFIX,
@@ -49,7 +49,7 @@ recordingpresence:  process.env.RECORDING === undefined ? false : process.env.RE
 },
   VERSION: process.env.VERSION === undefined ? 'v.0.0.3' : process.env.VERSION,
   LANG: process.env.THEME|| 'MALIK',
-  WORKTYPE: process.env.WORKTYPE === undefined ? 'private' : process.env.WORKTYPE
+  WORKTYPE: process.env.WORKTYPE === undefined ? 'public' : process.env.WORKTYPE
 };
 
 
